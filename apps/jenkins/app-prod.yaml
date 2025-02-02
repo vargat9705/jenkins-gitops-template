@@ -5,8 +5,9 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: prod
-    name: kind
+    namespace: jenkins-prod
+    # TODO
+    name: in-cluster
   project: default
   source:
     path: charts/jenkins-umbrella
