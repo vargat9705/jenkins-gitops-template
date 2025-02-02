@@ -7,7 +7,7 @@ jenkins:
         registry: "docker.io"
         # -- Controller image repository
         repository: "jenkins/jenkins"
-        tag: "2.462.3-jdk17"
-    JCasc:
+        tag: "2.479.1-jdk17"
+    JCasC:
       jenkins:
         systemMessage:  Welcome to our CI\CD server. This Jenkins is configured and managed
