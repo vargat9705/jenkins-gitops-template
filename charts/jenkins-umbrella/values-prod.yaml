@@ -1,0 +1,2 @@
+jenkins:
+  replicaCount: 2
