@@ -10,10 +10,8 @@ spec:
   project: default
   source:
     path: charts/jenkins-umbrella
-    # TODO
-    repoURL: https://github.com/morey-tech/argo-cd-helm-values-demo
-    # TODO
-    targetRevision: HEAD
+    repoURL: https://github.com/vargat9705/jenkins-gitops-template.git
+    targetRevision: main
     helm:
       valueFiles:
       - values-prod.yaml

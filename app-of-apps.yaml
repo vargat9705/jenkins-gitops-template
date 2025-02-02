@@ -8,10 +8,8 @@ spec:
     namespace: argocd
   source:
     path: apps
-    # TODO
-    repoURL: https://github.com/...
-    # TODO
-    targetRevision: HEAD
+    repoURL: https://github.com/vargat9705/jenkins-gitops-template.git
+    targetRevision: main
     directory:
       recurse: true
   project: default
