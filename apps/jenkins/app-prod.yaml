@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: jenkins-prod
     # TODO
-    name: in-cluster
+    server: 'https://kubernetes.default.svc'
   project: default
   source:
     path: charts/jenkins-umbrella
