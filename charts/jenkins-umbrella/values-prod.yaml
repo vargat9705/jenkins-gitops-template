@@ -1,4 +1,9 @@
 # Definition of dependency on Chart.yaml
 jenkins:
-  jenkins:
-    systemMessage: "Welcome to Jenkins! This is a custom message set via JCasC."
+  # From official jenkins values.yaml
+  controller:
+    JCasc:
+      configScripts:
+        welcome-message: |
+          jenkins:
+            SystemMessage:  Welcome to our CI\CD server. This Jenkins is configured and managed 'as code'.
