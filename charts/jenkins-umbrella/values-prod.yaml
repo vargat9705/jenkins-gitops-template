@@ -3,7 +3,5 @@ jenkins:
   # From official jenkins values.yaml
   controller:
     JCasc:
-      configScripts:
-        welcome-message: |
-          jenkins:
-            SystemMessage:  Welcome to our CI\CD server. This Jenkins is configured and managed 'as code'.
+      jenkins:
+        systemMessage:  Welcome to our CI\CD server. This Jenkins is configured and managed
