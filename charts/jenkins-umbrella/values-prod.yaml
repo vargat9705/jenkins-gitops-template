@@ -1,2 +1,4 @@
+# Definition of dependency on Chart.yaml
 jenkins:
-  replicaCount: 2
+  jenkins:
+    systemMessage: "Welcome to Jenkins! This is a custom message set via JCasC."
