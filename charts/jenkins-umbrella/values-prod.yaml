@@ -1,6 +1,8 @@
 # Definition of dependency on Chart.yaml
 jenkins:
   # From official jenkins values.yaml
+  persistence:
+    size: "9Gi"
   controller:
     image:
         # -- Controller image registry
