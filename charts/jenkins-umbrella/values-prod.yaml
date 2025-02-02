@@ -2,12 +2,12 @@
 jenkins:
   # From official jenkins values.yaml
   controller:
-  image:
-      # -- Controller image registry
-      registry: "docker.io"
-      # -- Controller image repository
-      repository: "jenkins/jenkins"
-      tag: "2.462.3-jdk17"
+    image:
+        # -- Controller image registry
+        registry: "docker.io"
+        # -- Controller image repository
+        repository: "jenkins/jenkins"
+        tag: "2.462.3-jdk17"
     JCasc:
       jenkins:
         systemMessage:  Welcome to our CI\CD server. This Jenkins is configured and managed
